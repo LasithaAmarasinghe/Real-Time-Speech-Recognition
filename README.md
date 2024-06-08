@@ -1,5 +1,7 @@
 # Real-Time-Speech-Recognition
 
+![file](https://github.com/LasithaAmarasinghe/Real-Time-Speech-Recognition/assets/106037441/701d01e0-54aa-4156-8510-353ab5319441)
+
 ## Overview
 
 * This project includes a system that can record live speech using your microphone and then transcribe it using speech recognition.  
@@ -16,7 +18,7 @@
 ## Code
 
 You can find the code for this project here.
-* [microphone.ipynb](https://github.com/dataquestio/project-walkthroughs/tree/master/microphone).
+* [microphone.ipynb](https://github.com/LasithaAmarasinghe/Real-Time-Speech-Recognition/blob/main/microphone.ipynb).
 
 ## Technologies/Tools
 
