@@ -32,31 +32,33 @@ You can find the code for this project here.
     * pyaudio `pip install pyaudio`
     * ipywidgets `pip install ipywidgets`
 
+## Installation Guidelines
+
 ### Vosk
 
-You'll need to download a model file to run vosk properly.  This will automatically download when you run this code:
+You need to download a model file to run vosk properly.  This automatically downloads when you run this code:
 
 ```
 from vosk import Model
 Model(model_name="vosk-model-small-en-us-0.15")
 ```
 
-The full vosk model is large (1+ GB).  If you want to use it, just specify `vosk-model-en-us-0.22` as the model name.
+The full vosk model is large (1GB+).  If you want to use it, just specify `vosk-model-en-us-0.22` as the model name.
 
 If the models don't automatically download, you can find them [here](https://alphacephei.com/vosk/models).
 
 ### Punctuation
 
-By default, vosk will output text with no punctuation.  To add in punctuation, we'll need a different model.  To get this, follow these steps:
+By default, vosk outputs text with no punctuation.  To add in punctuation, we need a different model.  To get this, follow these steps:
 
-* Download the model [here](https://alphacephei.com/vosk/models/vosk-recasepunc-en-0.22.zip) - caution: it's 1 GB+ in size.
+* Download the model [here](https://alphacephei.com/vosk/models/vosk-recasepunc-en-0.22.zip) - caution: 1GB+ in size.
 * Extract the zip file into the same directory as your code.
 
 ### Pyaudio
 
 Pyaudio can be a little tricky to install, since it depends on system packages.  Check the [homepage](http://people.csail.mit.edu/hubert/pyaudio/) for specific instructions for each OS.
 
-You'll also want to figure out the right device to record from.  Run this code to find the index of your microphone:
+You also want to figure out the right device to record from.  Run this code to find the index of your microphone:
 
 ```
 # Find audio device index
@@ -71,4 +73,4 @@ p.terminate()
 
 ## Data
 
-All audio will come from your microphone.
+All audio will come from the microphone.
