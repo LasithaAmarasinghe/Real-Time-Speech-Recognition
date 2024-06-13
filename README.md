@@ -4,7 +4,7 @@
 
 ## Overview
 
-* This project includes a system that can record live speech using your microphone and then transcribe it using speech recognition.  
+* This project includes a system that can record live speech using the microphone and then transcribe it using speech recognition.  
 * This can be used to automatically record and transcribe meetings, lectures, and other events.
 * This repository contains all the codes and resources of this project.
 
