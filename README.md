@@ -24,13 +24,22 @@ You can find the code for this project here.
 
 * Jupyter Notebook / JupyterLab
 * Python 3.10.12
+* Pytorch `pip install torch -f https://download.pytorch.org/whl/torch_stable.html`
 * Python packages
     * vosk `pip install vosk`
     * pydub `pip install pydub`
     * transformers `pip install transformers`
-    * torch `pip install torch -f https://download.pytorch.org/whl/torch_stable.html`
     * pyaudio `pip install pyaudio`
     * ipywidgets `pip install ipywidgets`
+
+![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=FFFF00)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)
+![Pytorch](https://img.shields.io/badge/pytorch_-%20darkorange?logo=pytorch&logoColor=white)
+![vosk](https://img.shields.io/badge/vosk_-%20dark%20green)
+![pydub](https://img.shields.io/badge/pydub_-%20purple)
+![transformers](https://img.shields.io/badge/transformers_-%20blue)
+![pyaudio](https://img.shields.io/badge/pyaudio_-%20orange)
+![ipywidgets](https://img.shields.io/badge/ipywidgets_-%20black)
 
 ## Installation Guidelines
 
